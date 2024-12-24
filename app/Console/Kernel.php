@@ -16,6 +16,13 @@ class Kernel extends ConsoleKernel
     }
 
     /**
+     * @var string[]
+     */
+    protected $commands = [
+        \App\Console\Commands\MakeInterfaceCommand::class,
+    ];
+
+    /**
      * Register the commands for the application.
      */
     protected function commands(): void
