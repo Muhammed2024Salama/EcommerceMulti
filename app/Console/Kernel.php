@@ -21,6 +21,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         \App\Console\Commands\MakeRepositoryCommand::class,
         \App\Console\Commands\MakeInterfaceCommand::class,
+        \App\Console\Commands\MakeServiceCommand::class,
     ];
 
     /**
