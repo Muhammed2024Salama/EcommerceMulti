@@ -19,6 +19,7 @@ class Kernel extends ConsoleKernel
      * @var string[]
      */
     protected $commands = [
+        \App\Console\Commands\MakeRepositoryCommand::class,
         \App\Console\Commands\MakeInterfaceCommand::class,
     ];
 
